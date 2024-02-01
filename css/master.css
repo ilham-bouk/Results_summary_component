@@ -3,24 +3,24 @@ body {
 }
 .content {
     display: flex;
-    box-shadow: 5px 5px 37px hsl(241, 100%, 89%);
+    box-shadow: 5px 20px 37px hsl(241, 100%, 89%);
     width: fit-content;
     border-radius: 20px;
-    transform: translateY(30%);
+    transform: translateY(50%);
     margin: auto;
 }
-.result {
+header {
     border-radius: 20px;
     width: 400px;
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     text-align: center;
 }
-.result h2 {
+header h2 {
     color: hsl(241, 100%, 89%);
     font-weight: 400;
     padding: 20px;
 }
-.result .circle {
+header .circle {
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     width: 200px;
     border-radius: 50%;
@@ -28,72 +28,79 @@ body {
     margin: auto;
     position: relative;
 }
-.result .circle h3 {
+header .circle h3 {
     color: white;
     font-size: 70px;
     margin: 0;
     transform: translateY(50%);
 }
-.result .circle p {
+header .circle p {
     position: absolute;
     bottom: 30px;
     transform: translateX(50%);
     right: 50%;
 }
-.result .circle + h1 {
+header .circle + h3 {
     color: white;
     font-weight: 400;
+    font-size: 32px;
 }
-.result p {
+header p {
     font-size: 18px;
     color: hsl(241, 100%, 89%);
 }
-.result h1 + p {
+header p:not(header .circle p) {
     max-width: 250px;
     margin: 20px auto 50px;
 }
-.summary {
+footer {
     width: 320px;
     padding: 40px;
 }
-.summary h2 {
+footer h2 {
     font-weight: 700;
     color: hsl(224, 30%, 27%);
     margin-bottom: 25px;
 }
-.summary .box {
+footer .box {
     display: flex;
     justify-content: space-between;
     padding: 15px;
     border-radius: 10px;
     margin: 20px 0;
 }
-.summary .box .info {
+footer .box .info {
     display: flex;
 }
-.summary .box.red {
+footer .box.red {
     background-color: hsl(0 100% 67% / 10%);
 }
-.summary .box.red .info {
+footer .box.red .info {
     color: hsl(0, 100%, 67%);
 }
-.summary .box.orange {
+footer .box.orange {
     background-color: hsl(39 100% 56% / 10%);
 }
-.summary .box.orange .info {
+footer .box.orange .info {
     color: hsl(39, 100%, 56%);
 }
-.summary .box.green {
+footer .box.green {
     background-color: hsl(166 100% 37% / 10%);
 }
-.summary .box.green .info {
+footer .box.green .info {
     color: hsl(166, 100%, 37%);
 }
-.summary .box.blue {
+footer .box.blue {
     background-color: hsl(234 85% 45% / 10%);
 }
-.summary .box.blue .info {
+footer .box.blue .info {
     color: hsl(234, 85%, 45%);
+}
+footer .box .info img {
+    margin-right: 10px;
+}
+footer .box .data span:first-of-type {
+    font-weight: bold;
 }
 button {
     background-color: hsl(224, 30%, 27%);
