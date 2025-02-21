@@ -1,13 +1,16 @@
 body {
     font-family: "Hanken Grotesk", sans-serif;
+    height: 100vh;
+    background-color: hsl(221, 100%, 96%);
 }
 .content {
     display: flex;
     box-shadow: 5px 20px 37px hsl(241, 100%, 89%);
     width: fit-content;
     border-radius: 20px;
-    transform: translateY(50%);
+    transform: translateY(20%);
     margin: auto;
+    background-color: white;
 }
 header {
     border-radius: 20px;
