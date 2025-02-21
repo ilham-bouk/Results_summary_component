@@ -24,12 +24,12 @@ Users should be able to:
 - **Bonus**: Use the local JSON data to dynamically populate the content
 
 ### Screenshot
-![](..design/desktop-design.jpg)
+![screenshot](../design/desktop-design.jpg)
 
 ### Links
 
-- Solution URL: [Solution URL]()
-- Live Site URL: [Live site]()
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/results-summary-component-6TaiIYUheb)
+- Live Site URL: [Live site](https://ilham-bouk.github.io/Results_summary_component/)
 
 ## My process
 
@@ -46,6 +46,6 @@ Users should be able to:
 
 ## Acknowledgments
 
-A big thank you to anyone providing feedback on [my solution](). It definitely helps to find new ways to code and find easier solutions!
+A big thank you to anyone providing feedback on [my solution](https://www.frontendmentor.io/solutions/results-summary-component-6TaiIYUheb). It definitely helps to find new ways to code and find easier solutions!
 
 **Happy coding!** ☺️🚀
