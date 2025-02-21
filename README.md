@@ -24,7 +24,7 @@ Users should be able to:
 - **Bonus**: Use the local JSON data to dynamically populate the content
 
 ### Screenshot
-![screenshot](../design/desktop-design.jpg)
+
 
 ### Links
 
